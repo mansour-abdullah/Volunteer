@@ -1,0 +1,97 @@
+body { /*background-image:url("hed-3.png");*/ background-color:#f7f7f7 ;
+ 
+
+/*font-family: 'Roboto Condensed', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+ 
+}
+/*colorful div*/
+    .box {
+ 
+  position: relative;
+   
+ 
+}
+
+.box:after {
+  background: linear-gradient(to right, #00519b 25%,#ffcd02 25%, #ffcd02 50%, #e84f47 50%, #e84f47 75%, #65c1ac 75%);
+  position: absolute;
+  content: '';
+  height: 2px;
+  right: 0;
+  left: 0;
+  top: 0;
+     
+}
+/*Loader*/
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('Preloader_3.gif') center no-repeat #fff;
+ 
+}
+
+/*nav bar*/
+nav{font-size:20px}
+.navbar-light .navbar-nav .nav-link {color:#000;}
+.navbar-light .navbar-nav .nav-link:hover {color: #0dab0fad;}
+.navbar-light .navbar-nav .nav-link:focus{color:#0dab0fad }
+.navbar-toggler{margin-top: 20px;}
+
+/*slide image*/
+.slide{width:100%;height:500px;}
+/*search*/
+.search{padding:10px;margin-top:20px; }
+
+/*how div*/
+.how{background-image:url('hed-3.png');margin-top: ;  }
+
+/*cards*/
+.card{margin-bottom: 20px;}
+.card-body{padding: 15px}
+
+/*how cards*/
+.join i{color:#29b989}
+.join h4{color:#29b989}
+.search-card i{color:coral}
+.search-card h4{color:coral}
+.apply i{color:palevioletred}
+.apply h4{color:palevioletred}
+
+
+/*wrapper*/
+.wraper{background-image:url('hed-3.png');margin-top:20px;padding-top: ;}
+
+
+/*Footer*/
+footer{margin-bottom:0px;background-color:#f1f1f1}
+footer .row{margin-top:10px; padding:10px}
+footer ul{list-style: none}
+footer ul li {display: inline; margin-right: 15px}
+footer ul li a {color:inherit}
+/*social media*/
+.fa-facebook-official{color: #3b5998} 
+.fa-twitter-square{color: #00aced;}
+.fa-youtube-play{color: #bb0000}
+
+
+.modal-header{border: none}
+
+
+
+
+
+
+hr.colored {
+  border: 0;   /* in order to override TWBS stylesheet */
+  height: 3px;
+    margin-bottom:0px;
+ 
+     background: linear-gradient(to right, #00519b 25%,#ffcd02 25%, #ffcd02 50%, #e84f47 50%, #e84f47 75%, #65c1ac 75%);
+}
